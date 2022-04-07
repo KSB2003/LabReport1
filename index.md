@@ -12,6 +12,8 @@ Step 3: Click on the zip file and take the following steps in order to be able t
 
 
 **Part 2: Remotely connecting**
+
+
 Step 1: In order to remotely coonect to the server you must first be able to change your password for your UCSD account, you can do this via this [link](https://sdacs.ucsd.edu/~icc/index.php). It will look as follows:
 <img width="869" alt="Screen Shot 2022-04-06 at 10 45 56 PM" src="https://user-images.githubusercontent.com/65454241/162128846-4452dc50-5626-470f-be9a-33d16e291c2a.png">
 
@@ -28,6 +30,8 @@ Step 4: After this you will be prompted to enter the password. The password will
 
 
 **Part 3: Trying some commands**
+
+
 After you have connected there are a variety of commands that you could try on the remote server. 
 
 `cd` - is a command that can help you navigate between the directories in the remote server.
@@ -46,6 +50,7 @@ If you wish to logout of the remote server in your terminal you must run the fol
 
 
 **Part 4: Moving files over SSH with scp**
+
 
 Step 1: Create a random file on vs code. Make sure that the code actually compiles and save the file. Test the code by using `javac` and `java` on your computer. 
 
@@ -75,6 +80,8 @@ After you have logged in, it will look as follows:
 
 
 **Part 6: Optimizing Remote Running**
+
+
 There are multiple ways in which you can optimize your remote running?:
  - You can directly type the following command while on your own system and see all of the files in the home directory of the remote server:
 
