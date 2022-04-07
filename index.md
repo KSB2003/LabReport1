@@ -48,6 +48,13 @@ If you wish to logout of the remote server in your terminal you must run the fol
  - Ctrl-D
  - `exit`
 
+The following is a picture of me attempting to access the remote server of one of my peers:
+
+
+<img width="415" alt="Screen Shot 2022-04-07 at 12 07 28 AM" src="https://user-images.githubusercontent.com/65454241/162140391-43968014-2c38-4341-90ff-9b725280af53.png">
+
+
+
 
 **Part 4: Moving files over SSH with scp**
 
