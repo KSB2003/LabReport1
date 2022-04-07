@@ -18,7 +18,27 @@ Step 1: In order to remotely coonect to the server you must first be able to cha
 
 Step 2: Once you have done this you should be able to see your unique user code. It would be "cs15l22" followed by three letters that are unique to your account.
 
-Step 3: Open up a terminal and type the following command in order to establish remote control. Also note that the hostname would follow the user and it would be '@ieng6.ucsd.edu'.
+Step 3: Open up a terminal and type the following command in order to establish remote control. Also note that the hostname would follow the user and it would be '@ieng6.ucsd.edu'. Refer to the command below.
 
 `$ ssh user@hostname`.
- 
+
+Step 4: After this you will be prompted to enter teh password. The password will not actually show. This is expected and you should not worry as the password is hidden for security reasons. If you have correctly entered the password you should be able to enter. 
+
+
+**Part 3: Trying some commands**
+After you have connected there are a variety of commands that you could try on the remote server. 
+
+`cd` - is a command that can help you navigate between the directories in the remote server.
+
+
+`ls` - it is a command that lists all of the files in the current working directory in the remote server. 
+
+
+
+You can create files with the following command:
+`cat /home/linux/ieng6/cs15lsp22/public/hello.txt`
+
+If you wish to logout of the remote server in your terminal you must run the following commands:
+ - Ctrl-D
+ - `exit`
+
