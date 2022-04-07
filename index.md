@@ -61,3 +61,31 @@ Step 3: Login again with the ssh key onto ieng6 and use the `ls` command to list
 <img width="321" alt="Screen Shot 2022-04-06 at 11 33 15 PM" src="https://user-images.githubusercontent.com/65454241/162135551-de3b9ccc-3ca9-4ecd-b1fb-de7ed01c77bc.png">
 
 
+**Part 5: Setting up SSH keys**
+Step 1: When you are on the client (your own computer not the remote server) type in the following command:
+
+`ssh-keygen`
+
+Step 2: You will receive a prompt telling you to enter a passphrase. Make sure you enter nothing and simply hit the enter button. It will ask for a confirmation again, click the enter button again. It will say that your identification has been saved and will display the randomart image. 
+
+After you have logged in, it will look as follows:
+<img width="416" alt="Screen Shot 2022-04-06 at 11 56 02 PM" src="https://user-images.githubusercontent.com/65454241/162138539-7953d067-801a-41d7-b690-d131d923c38b.png">
+
+
+**Part 6: Optimizing Remote Running**
+There are multiple ways in which you can optimize your remote running?:
+ - You can directly type the following command while on your own system and see all of the files in the home directory of the remote server:
+
+
+   `ssh cs15lsp22zz@ieng6.ucsd.edu "ls"`
+   
+   
+ - You can also use semicolons in order to run multiple lines on the same command. For example:
+
+
+   `$ cp WhereAmI.java OtherMain.java; javac OtherMain.java;
+java WhereAmI`
+
+
+
+
