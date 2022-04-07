@@ -83,7 +83,7 @@ There are multiple ways in which you can optimize your remote running?:
  - You can also use semicolons in order to run multiple lines on the same command. For example:
 
 
-   `$ cp WhereAmI.java OtherMain.java; javac OtherMain.java;
+   `cp WhereAmI.java OtherMain.java; javac OtherMain.java;
 java WhereAmI`
 
 
