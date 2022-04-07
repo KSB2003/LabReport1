@@ -12,7 +12,7 @@ Step 3: Click on the zip file and take the following steps in order to be able t
 
 
 **Part 2: Remotely connecting**
-Step 1: In order to remotely coonect to the server you must first be able to change your password for your UCSD account, you can do this via tis [link](https://sdacs.ucsd.edu/~icc/index.php). It will look as follows:
+Step 1: In order to remotely coonect to the server you must first be able to change your password for your UCSD account, you can do this via this [link](https://sdacs.ucsd.edu/~icc/index.php). It will look as follows:
 <img width="869" alt="Screen Shot 2022-04-06 at 10 45 56 PM" src="https://user-images.githubusercontent.com/65454241/162128846-4452dc50-5626-470f-be9a-33d16e291c2a.png">
 
 
@@ -46,3 +46,18 @@ If you wish to logout of the remote server in your terminal you must run the fol
 
 
 **Part 4: Moving files over SSH with scp**
+
+Step 1: Create a random file on vs code. Make sure that the code actually compiles and save the file. Test the code by using `javac` and `java` on your computer. 
+
+Step 2: Run the following command from the directory that contains the java file that you just created, find the command below (make sure you modify the user to your unique three letters):
+
+`scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/`
+
+Step 3: Login again with the ssh key onto ieng6 and use the `ls` command to list files. You shoud be able to see the file in the home directory on the remote server. You can even run the file using the `javac` and `java` commands on your computer. This works because java is already installed on the remote server. 
+
+
+Step 3: Login again with the ssh key onto ieng6 and use the `ls` command to list files. You shoud be able to see the file in the home directory on the remote server. You can even run the file using the `javac` and `java` commands on your computer. This works because java is already installed on the remote server. The file will look as follows when it is run on the remote server:
+
+<img width="321" alt="Screen Shot 2022-04-06 at 11 33 15 PM" src="https://user-images.githubusercontent.com/65454241/162135551-de3b9ccc-3ca9-4ecd-b1fb-de7ed01c77bc.png">
+
+
