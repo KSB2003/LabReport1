@@ -83,7 +83,13 @@ Step 1: When you are on the client (your own computer not the remote server) typ
 Step 2: You will receive a prompt telling you to enter a passphrase. Make sure you enter nothing and simply hit the enter button. It will ask for a confirmation again, click the enter button again. It will say that your identification has been saved and will display the randomart image. 
 
 After you have logged in, it will look as follows:
+
+
+
+
 <img width="416" alt="Screen Shot 2022-04-06 at 11 56 02 PM" src="https://user-images.githubusercontent.com/65454241/162138539-7953d067-801a-41d7-b690-d131d923c38b.png">
+
+
 
 
 **Part 6: Optimizing Remote Running**
