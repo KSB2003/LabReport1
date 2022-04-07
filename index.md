@@ -22,7 +22,9 @@ Step 3: Open up a terminal and type the following command in order to establish 
 
 `$ ssh user@hostname`.
 
-Step 4: After this you will be prompted to enter teh password. The password will not actually show. This is expected and you should not worry as the password is hidden for security reasons. If you have correctly entered the password you should be able to enter. 
+Step 4: After this you will be prompted to enter the password. The password will not actually show. This is expected and you should not worry as the password is hidden for security reasons. If you have correctly entered the password you should be able to enter. After you have logged in, it will look as follows:
+
+<img width="282" alt="Screen Shot 2022-04-06 at 11 15 39 PM" src="https://user-images.githubusercontent.com/65454241/162132654-f1837158-e6a7-413c-9878-994c33aee266.png">
 
 
 **Part 3: Trying some commands**
@@ -42,3 +44,5 @@ If you wish to logout of the remote server in your terminal you must run the fol
  - Ctrl-D
  - `exit`
 
+
+**Part 4: Moving files over SSH with scp**
