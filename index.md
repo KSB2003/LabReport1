@@ -62,6 +62,8 @@ Step 3: Login again with the ssh key onto ieng6 and use the `ls` command to list
 
 
 **Part 5: Setting up SSH keys**
+
+
 Step 1: When you are on the client (your own computer not the remote server) type in the following command:
 
 `ssh-keygen`
