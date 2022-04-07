@@ -87,5 +87,10 @@ There are multiple ways in which you can optimize your remote running?:
 java WhereAmI`
 
 
+This will look as follows:
+<img width="417" alt="Screen Shot 2022-04-07 at 12 03 28 AM" src="https://user-images.githubusercontent.com/65454241/162139732-c1b744d5-a3c6-4b3e-963d-a739dd44407c.png">
+
+
+
 
 
