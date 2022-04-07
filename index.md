@@ -17,5 +17,6 @@ Step 1: In order to remotely coonect to the server you must first be able to cha
 Step 2: Once you have done this you should be able to see your unique user code. It would be "cs15l22" followed by three letters that are unique to your account.
 
 Step 3: Open up a terminal and type the following command in order to establish remote control. Also note that the hostname would follow the user and it would be '@ieng6.ucsd.edu'.
+
 `$ ssh user@hostname`.
  
