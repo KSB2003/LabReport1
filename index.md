@@ -26,7 +26,7 @@ Step 3: Open up a terminal and type the following command in order to establish 
 
 Step 4: After this you will be prompted to enter the password. The password will not actually show. This is expected and you should not worry as the password is hidden for security reasons. If you have correctly entered the password you should be able to enter. After you have logged in, it will look as follows:
 
-<img width="282" alt="Screen Shot 2022-04-06 at 11 15 39 PM" src="https://user-images.githubusercontent.com/65454241/162132654-f1837158-e6a7-413c-9878-994c33aee266.png">
+<img width="400" alt="Screen Shot 2022-04-06 at 11 15 39 PM" src="https://user-images.githubusercontent.com/65454241/162132654-f1837158-e6a7-413c-9878-994c33aee266.png">
 
 
 **Part 3: Trying some commands**
@@ -51,7 +51,7 @@ If you wish to logout of the remote server in your terminal you must run the fol
 The following is a picture of me attempting to access the remote server of one of my peers:
 
 
-<img width="415" alt="Screen Shot 2022-04-07 at 12 07 28 AM" src="https://user-images.githubusercontent.com/65454241/162140391-43968014-2c38-4341-90ff-9b725280af53.png">
+<img width="750" alt="Screen Shot 2022-04-07 at 12 07 28 AM" src="https://user-images.githubusercontent.com/65454241/162140391-43968014-2c38-4341-90ff-9b725280af53.png">
 
 
 
@@ -70,7 +70,7 @@ Step 3: Login again with the ssh key onto ieng6 and use the `ls` command to list
 
 Step 3: Login again with the ssh key onto ieng6 and use the `ls` command to list files. You shoud be able to see the file in the home directory on the remote server. You can even run the file using the `javac` and `java` commands on your computer. This works because java is already installed on the remote server. The file will look as follows when it is run on the remote server:
 
-<img width="321" alt="Screen Shot 2022-04-06 at 11 33 15 PM" src="https://user-images.githubusercontent.com/65454241/162135551-de3b9ccc-3ca9-4ecd-b1fb-de7ed01c77bc.png">
+<img width="700" alt="Screen Shot 2022-04-06 at 11 33 15 PM" src="https://user-images.githubusercontent.com/65454241/162135551-de3b9ccc-3ca9-4ecd-b1fb-de7ed01c77bc.png">
 
 
 **Part 5: Setting up SSH keys**
@@ -87,7 +87,7 @@ After you have logged in, it will look as follows:
 
 
 
-<img width="416" alt="Screen Shot 2022-04-06 at 11 56 02 PM" src="https://user-images.githubusercontent.com/65454241/162138539-7953d067-801a-41d7-b690-d131d923c38b.png">
+<img width="700" alt="Screen Shot 2022-04-06 at 11 56 02 PM" src="https://user-images.githubusercontent.com/65454241/162138539-7953d067-801a-41d7-b690-d131d923c38b.png">
 
 
 
@@ -112,7 +112,7 @@ java WhereAmI`
 This will look as follows:
 
 
-<img width="417" alt="Screen Shot 2022-04-07 at 12 03 28 AM" src="https://user-images.githubusercontent.com/65454241/162139732-c1b744d5-a3c6-4b3e-963d-a739dd44407c.png">
+<img width="850" alt="Screen Shot 2022-04-07 at 12 03 28 AM" src="https://user-images.githubusercontent.com/65454241/162139732-c1b744d5-a3c6-4b3e-963d-a739dd44407c.png">
 
 
 
